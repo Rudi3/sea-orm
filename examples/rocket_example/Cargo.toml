@@ -23,7 +23,7 @@ serde_json = { version = "^1" }
 [dependencies.sea-orm]
 path = "../../" # remove this line in your own project
 version = "^0.5.0"
-features = ["macros", "runtime-tokio-native-tls"]
+features = ["macros", "mock", "runtime-tokio-native-tls"]
 default-features = false
 
 [dependencies.sea-orm-rocket]
